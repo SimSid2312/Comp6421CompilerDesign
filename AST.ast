@@ -1,0 +1,322 @@
+=====================================================================
+Node type                 | data      | type      | subtreestring
+=====================================================================
+AST.ProgNode                                                                |                        |                   |                  
+  AST.ClassListNode                                                         |                        |                   |                  
+    AST.ClassNode                                                           |                        |                   |                  
+      AST.IdNode                                                            | class1                 |                   |                  
+      AST.InherListNode                                                     |                        |                   |                  
+      AST.MemberListNode                                                    |                        |                   |                  
+        AST.VarDeclNode                                                     |                        |                   |                  
+          AST.TypeNode                                                      | int                    |                   |                  
+          AST.IdNode                                                        | i1                     |                   |                  
+          AST.DimListNode                                                   |                        |                   |                  
+        AST.funcDeclNode                                                    |                        |                   |                  
+          AST.TypeNode                                                      | int                    |                   |                  
+          AST.IdNode                                                        | f1                     |                   |                  
+          AST.fParamNode                                                    |                        |                   |                  
+            AST.TypeNode                                                    | int                    |                   |                  
+            AST.IdNode                                                      | x                      |                   |                  
+            AST.DimListNode                                                 |                        |                   |                  
+    AST.ClassNode                                                           |                        |                   |                  
+      AST.IdNode                                                            | class2                 |                   |                  
+      AST.InherListNode                                                     |                        |                   |                  
+        AST.IdNode                                                          | class1                 |                   |                  
+      AST.MemberListNode                                                    |                        |                   |                  
+        AST.VarDeclNode                                                     |                        |                   |                  
+          AST.IdNode                                                        | class1                 |                   |                  
+          AST.IdNode                                                        | a                      |                   |                  
+          AST.DimListNode                                                   |                        |                   |                  
+            AST.NumNode                                                     | 10                     | integer           |                  
+  AST.FuncDefListNode                                                       |                        |                   |                  
+    AST.FuncDefNode                                                         |                        |                   |                  
+      AST.TypeNode                                                          | int                    |                   |                  
+      AST.IdNode                                                            | class1                 |                   |                  
+      AST.FunScope                                                          | ::                     |                   |                  
+      AST.IdNode                                                            | f1                     |                   |                  
+      AST.fParamNode                                                        |                        |                   |                  
+        AST.TypeNode                                                        | int                    |                   |                  
+        AST.IdNode                                                          | par1                   |                   |                  
+        AST.DimListNode                                                     |                        |                   |                  
+      AST.FuncDefStatBlock                                                  |                        |                   |                  
+        AST.VarDeclNode                                                     |                        |                   |                  
+          AST.TypeNode                                                      | int                    |                   |                  
+          AST.IdNode                                                        | s                      |                   |                  
+          AST.DimListNode                                                   |                        |                   |                  
+        AST.VarDeclNode                                                     |                        |                   |                  
+          AST.TypeNode                                                      | int                    |                   |                  
+          AST.IdNode                                                        | var                    |                   |                  
+          AST.DimListNode                                                   |                        |                   |                  
+        AST.StatNode                                                        |                        |                   |                  
+          AST.ForStatNode                                                   |                        |                   |                  
+            AST.TypeNode                                                    | int                    |                   |                  
+            AST.IdNode                                                      | i                      |                   |                  
+            AST.Expr                                                        |                        |                   |                  
+              AST.ArithExpr                                                 |                        |                   |                  
+                AST.TermNode                                                |                        |                   |                  
+                  AST.FactorNode                                            |                        |                   |                  
+                    AST.FactorNumNode                                       |                        |                   |                  
+                      AST.NumNode                                           | 1                      | integer           |                  
+            AST.RelExpr                                                     |                        |                   |                  
+              AST.ArithExpr                                                 |                        |                   |                  
+                AST.TermNode                                                |                        |                   |                  
+                  AST.FactorNode                                            |                        |                   |                  
+                    AST.VarNode                                             |                        |                   |                  
+                      AST.DataMemberNode                                    |                        |                   |                  
+                        AST.IdNode                                          | i                      |                   |                  
+                        AST.IndiceListNode                                  |                        |                   |                  
+              AST.RelationOP                                                | <                      |                   |                  
+              AST.ArithExpr                                                 |                        |                   |                  
+                AST.TermNode                                                |                        |                   |                  
+                  AST.FactorNode                                            |                        |                   |                  
+                    AST.FactorNumNode                                       |                        |                   |                  
+                      AST.NumNode                                           | 10                     | integer           |                  
+            AST.AssignStatNode                                              | =                      |                   |                  
+              AST.VarNode                                                   |                        |                   |                  
+                AST.DataMemberNode                                          |                        |                   |                  
+                  AST.IdNode                                                | i                      |                   |                  
+                  AST.IndiceListNode                                        |                        |                   |                  
+              AST.Expr                                                      |                        |                   |                  
+                AST.ArithExpr                                               |                        |                   |                  
+                  AST.AddOpNode                                             | +                      |                   |                  
+                    AST.TermNode                                            |                        |                   |                  
+                      AST.FactorNode                                        |                        |                   |                  
+                        AST.VarNode                                         |                        |                   |                  
+                          AST.DataMemberNode                                |                        |                   |                  
+                            AST.IdNode                                      | i                      |                   |                  
+                            AST.IndiceListNode                              |                        |                   |                  
+                    AST.TermNode                                            |                        |                   |                  
+                      AST.FactorNode                                        |                        |                   |                  
+                        AST.FactorNumNode                                   |                        |                   |                  
+                          AST.NumNode                                       | 1                      | integer           |                  
+            AST.StatBlockNode                                               |                        |                   |                  
+              AST.StatNode                                                  |                        |                   |                  
+                AST.PutSatNode                                              |                        |                   |                  
+                  AST.Expr                                                  |                        |                   |                  
+                    AST.ArithExpr                                           |                        |                   |                  
+                      AST.TermNode                                          |                        |                   |                  
+                        AST.FactorNode                                      |                        |                   |                  
+                          AST.VarNode                                       |                        |                   |                  
+                            AST.DataMemberNode                              |                        |                   |                  
+                              AST.IdNode                                    | var                    |                   |                  
+                              AST.IndiceListNode                            |                        |                   |                  
+        AST.StatNode                                                        |                        |                   |                  
+          AST.ReturnStatNode                                                |                        |                   |                  
+            AST.Expr                                                        |                        |                   |                  
+              AST.ArithExpr                                                 |                        |                   |                  
+                AST.TermNode                                                |                        |                   |                  
+                  AST.FactorNode                                            |                        |                   |                  
+                    AST.FactorNumNode                                       |                        |                   |                  
+                      AST.NumNode                                           | 10                     | integer           |                  
+  AST.FuncDefStatBlock                                                      |                        |                   |                  
+    AST.VarDeclNode                                                         |                        |                   |                  
+      AST.IdNode                                                            | class1                 |                   |                  
+      AST.IdNode                                                            | c1                     |                   |                  
+      AST.DimListNode                                                       |                        |                   |                  
+    AST.VarDeclNode                                                         |                        |                   |                  
+      AST.IdNode                                                            | class2                 |                   |                  
+      AST.IdNode                                                            | c2                     |                   |                  
+      AST.DimListNode                                                       |                        |                   |                  
+    AST.VarDeclNode                                                         |                        |                   |                  
+      AST.TypeNode                                                          | int                    |                   |                  
+      AST.IdNode                                                            | f                      |                   |                  
+      AST.DimListNode                                                       |                        |                   |                  
+    AST.VarDeclNode                                                         |                        |                   |                  
+      AST.TypeNode                                                          | int                    |                   |                  
+      AST.IdNode                                                            | b                      |                   |                  
+      AST.DimListNode                                                       |                        |                   |                  
+    AST.VarDeclNode                                                         |                        |                   |                  
+      AST.TypeNode                                                          | int                    |                   |                  
+      AST.IdNode                                                            | result                 |                   |                  
+      AST.DimListNode                                                       |                        |                   |                  
+    AST.VarDeclNode                                                         |                        |                   |                  
+      AST.TypeNode                                                          | int                    |                   |                  
+      AST.IdNode                                                            | result1                |                   |                  
+      AST.DimListNode                                                       |                        |                   |                  
+    AST.VarDeclNode                                                         |                        |                   |                  
+      AST.TypeNode                                                          | int                    |                   |                  
+      AST.IdNode                                                            | a1                     |                   |                  
+      AST.DimListNode                                                       |                        |                   |                  
+        AST.NumNode                                                         | 5                      | integer           |                  
+        AST.NumNode                                                         | 10                     | integer           |                  
+        AST.NumNode                                                         | 10                     | integer           |                  
+    AST.StatNode                                                            |                        |                   |                  
+      AST.AssignStatNode                                                    | =                      |                   |                  
+        AST.VarNode                                                         |                        |                   |                  
+          AST.DotOpNode                                                     | .                      |                   |                  
+            AST.DataMemberNode                                              |                        |                   |                  
+              AST.IdNode                                                    | c1                     |                   |                  
+              AST.IndiceListNode                                            |                        |                   |                  
+            AST.DataMemberNode                                              |                        |                   |                  
+              AST.IdNode                                                    | i1                     |                   |                  
+              AST.IndiceListNode                                            |                        |                   |                  
+        AST.Expr                                                            |                        |                   |                  
+          AST.ArithExpr                                                     |                        |                   |                  
+            AST.TermNode                                                    |                        |                   |                  
+              AST.FactorNode                                                |                        |                   |                  
+                AST.FactorNumNode                                           |                        |                   |                  
+                  AST.NumNode                                               | 10                     | integer           |                  
+    AST.StatNode                                                            |                        |                   |                  
+      AST.PutSatNode                                                        |                        |                   |                  
+        AST.Expr                                                            |                        |                   |                  
+          AST.ArithExpr                                                     |                        |                   |                  
+            AST.TermNode                                                    |                        |                   |                  
+              AST.DotOpNode                                                 | .                      |                   |                  
+                AST.DataMemberNode                                          |                        |                   |                  
+                  AST.IdNode                                                | c1                     |                   |                  
+                  AST.IndiceListNode                                        |                        |                   |                  
+                AST.DataMemberNode                                          |                        |                   |                  
+                  AST.IdNode                                                | i1                     |                   |                  
+                  AST.IndiceListNode                                        |                        |                   |                  
+    AST.StatNode                                                            |                        |                   |                  
+      AST.GetStatNode                                                       |                        |                   |                  
+        AST.VarNode                                                         |                        |                   |                  
+          AST.DotOpNode                                                     | .                      |                   |                  
+            AST.DataMemberNode                                              |                        |                   |                  
+              AST.IdNode                                                    | b                      |                   |                  
+              AST.IndiceListNode                                            |                        |                   |                  
+            AST.DataMemberNode                                              |                        |                   |                  
+              AST.IdNode                                                    | x                      |                   |                  
+              AST.IndiceListNode                                            |                        |                   |                  
+    AST.StatNode                                                            |                        |                   |                  
+      AST.GetStatNode                                                       |                        |                   |                  
+        AST.VarNode                                                         |                        |                   |                  
+          AST.DataMemberNode                                                |                        |                   |                  
+            AST.IdNode                                                      | a1                     |                   |                  
+            AST.IndiceListNode                                              |                        |                   |                  
+              AST.indiceNode                                                |                        |                   |                  
+                AST.ArithExpr                                               |                        |                   |                  
+                  AST.TermNode                                              |                        |                   |                  
+                    AST.FactorNode                                          |                        |                   |                  
+                      AST.FactorNumNode                                     |                        |                   |                  
+                        AST.NumNode                                         | 1                      | integer           |                  
+              AST.indiceNode                                                |                        |                   |                  
+                AST.ArithExpr                                               |                        |                   |                  
+                  AST.TermNode                                              |                        |                   |                  
+                    AST.FactorNode                                          |                        |                   |                  
+                      AST.FactorNumNode                                     |                        |                   |                  
+                        AST.NumNode                                         | 1                      | integer           |                  
+              AST.indiceNode                                                |                        |                   |                  
+                AST.ArithExpr                                               |                        |                   |                  
+                  AST.TermNode                                              |                        |                   |                  
+                    AST.FactorNode                                          |                        |                   |                  
+                      AST.FactorNumNode                                     |                        |                   |                  
+                        AST.NumNode                                         | 1                      | integer           |                  
+    AST.StatNode                                                            |                        |                   |                  
+      AST.AssignStatNode                                                    | =                      |                   |                  
+        AST.VarNode                                                         |                        |                   |                  
+          AST.DataMemberNode                                                |                        |                   |                  
+            AST.IdNode                                                      | result                 |                   |                  
+            AST.IndiceListNode                                              |                        |                   |                  
+        AST.Expr                                                            |                        |                   |                  
+          AST.ArithExpr                                                     |                        |                   |                  
+            AST.AddOpNode                                                   | +                      |                   |                  
+              AST.TermNode                                                  |                        |                   |                  
+                AST.FactorNode                                              |                        |                   |                  
+                  AST.VarNode                                               |                        |                   |                  
+                    AST.DataMemberNode                                      |                        |                   |                  
+                      AST.IdNode                                            | a1                     |                   |                  
+                      AST.IndiceListNode                                    |                        |                   |                  
+                        AST.indiceNode                                      |                        |                   |                  
+                          AST.ArithExpr                                     |                        |                   |                  
+                            AST.TermNode                                    |                        |                   |                  
+                              AST.FactorNode                                |                        |                   |                  
+                                AST.FactorNumNode                           |                        |                   |                  
+                                  AST.NumNode                               | 1                      | integer           |                  
+                        AST.indiceNode                                      |                        |                   |                  
+                          AST.ArithExpr                                     |                        |                   |                  
+                            AST.TermNode                                    |                        |                   |                  
+                              AST.FactorNode                                |                        |                   |                  
+                                AST.FactorNumNode                           |                        |                   |                  
+                                  AST.NumNode                               | 1                      | integer           |                  
+                        AST.indiceNode                                      |                        |                   |                  
+                          AST.ArithExpr                                     |                        |                   |                  
+                            AST.TermNode                                    |                        |                   |                  
+                              AST.FactorNode                                |                        |                   |                  
+                                AST.FactorNumNode                           |                        |                   |                  
+                                  AST.NumNode                               | 1                      | integer           |                  
+              AST.TermNode                                                  |                        |                   |                  
+                AST.MultOpNode                                              | *                      |                   |                  
+                  AST.FactorNode                                            |                        |                   |                  
+                    AST.VarNode                                             |                        |                   |                  
+                      AST.DataMemberNode                                    |                        |                   |                  
+                        AST.IdNode                                          | b                      |                   |                  
+                        AST.IndiceListNode                                  |                        |                   |                  
+                  AST.FactorNode                                            |                        |                   |                  
+                    AST.VarNode                                             |                        |                   |                  
+                      AST.DataMemberNode                                    |                        |                   |                  
+                        AST.IdNode                                          | a1                     |                   |                  
+                        AST.IndiceListNode                                  |                        |                   |                  
+                          AST.indiceNode                                    |                        |                   |                  
+                            AST.ArithExpr                                   |                        |                   |                  
+                              AST.TermNode                                  |                        |                   |                  
+                                AST.FactorNode                              |                        |                   |                  
+                                  AST.FactorNumNode                         |                        |                   |                  
+                                    AST.NumNode                             | 1                      | integer           |                  
+                          AST.indiceNode                                    |                        |                   |                  
+                            AST.ArithExpr                                   |                        |                   |                  
+                              AST.TermNode                                  |                        |                   |                  
+                                AST.FactorNode                              |                        |                   |                  
+                                  AST.FactorNumNode                         |                        |                   |                  
+                                    AST.NumNode                             | 1                      | integer           |                  
+                          AST.indiceNode                                    |                        |                   |                  
+                            AST.ArithExpr                                   |                        |                   |                  
+                              AST.TermNode                                  |                        |                   |                  
+                                AST.FactorNode                              |                        |                   |                  
+                                  AST.FactorNumNode                         |                        |                   |                  
+                                    AST.NumNode                             | 1                      | integer           |                  
+    AST.StatNode                                                            |                        |                   |                  
+      AST.AssignStatNode                                                    | =                      |                   |                  
+        AST.VarNode                                                         |                        |                   |                  
+          AST.DataMemberNode                                                |                        |                   |                  
+            AST.IdNode                                                      | result                 |                   |                  
+            AST.IndiceListNode                                              |                        |                   |                  
+        AST.Expr                                                            |                        |                   |                  
+          AST.RelExpr                                                       |                        |                   |                  
+            AST.ArithExpr                                                   |                        |                   |                  
+              AST.TermNode                                                  |                        |                   |                  
+                AST.FactorNode                                              |                        |                   |                  
+                  AST.VarNode                                               |                        |                   |                  
+                    AST.DataMemberNode                                      |                        |                   |                  
+                      AST.IdNode                                            | result                 |                   |                  
+                      AST.IndiceListNode                                    |                        |                   |                  
+            AST.RelationOP                                                  | >                      |                   |                  
+            AST.ArithExpr                                                   |                        |                   |                  
+              AST.TermNode                                                  |                        |                   |                  
+                AST.FactorNode                                              |                        |                   |                  
+                  AST.FactorNumNode                                         |                        |                   |                  
+                    AST.NumNode                                             | 10                     | integer           |                  
+    AST.StatNode                                                            |                        |                   |                  
+      AST.AssignStatNode                                                    | =                      |                   |                  
+        AST.VarNode                                                         |                        |                   |                  
+          AST.DataMemberNode                                                |                        |                   |                  
+            AST.IdNode                                                      | result1                |                   |                  
+            AST.IndiceListNode                                              |                        |                   |                  
+        AST.Expr                                                            |                        |                   |                  
+          AST.ArithExpr                                                     |                        |                   |                  
+            AST.TermNode                                                    |                        |                   |                  
+              AST.DotOpNode                                                 | .                      |                   |                  
+                AST.DataMemberNode                                          |                        |                   |                  
+                  AST.IdNode                                                | c1                     |                   |                  
+                  AST.IndiceListNode                                        |                        |                   |                  
+                AST.FCallNode                                               |                        |                   |                  
+                  AST.IdNode                                                | f1                     |                   |                  
+                  AST.ParamListNode                                         |                        |                   |                  
+                    AST.Expr                                                |                        |                   |                  
+                      AST.ArithExpr                                         |                        |                   |                  
+                        AST.TermNode                                        |                        |                   |                  
+                          AST.FactorNode                                    |                        |                   |                  
+                            AST.FactorNumNode                               |                        |                   |                  
+                              AST.NumNode                                   | 1                      | integer           |                  
+    AST.StatNode                                                            |                        |                   |                  
+      AST.PutSatNode                                                        |                        |                   |                  
+        AST.Expr                                                            |                        |                   |                  
+          AST.ArithExpr                                                     |                        |                   |                  
+            AST.TermNode                                                    |                        |                   |                  
+              AST.FactorNode                                                |                        |                   |                  
+                AST.VarNode                                                 |                        |                   |                  
+                  AST.DataMemberNode                                        |                        |                   |                  
+                    AST.IdNode                                              | result1                |                   |                  
+                    AST.IndiceListNode                                      |                        |                   |                  
+=====================================================================
+

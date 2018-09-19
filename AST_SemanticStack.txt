@@ -1,0 +1,2 @@
+AST.ProgNode@15db9742------>[AST.ClassListNode@6d06d69c, AST.FuncDefListNode@7852e922, AST.FuncDefStatBlock@4e25154f]
+|
