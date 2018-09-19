@@ -1,0 +1,48 @@
+ class class1
+{
+   int i1;
+   int f1(int x);
+  
+};
+class class2 :class1
+{
+  class1 a[10];
+};
+
+int class1::f1(int par1)
+{
+  int s;
+  int var;
+  
+  for(int  i = 1; i<10; i=i+1) 
+   { 
+     put(var);
+   };
+   
+   return(10);
+};
+program{
+
+ //1.20
+ class1 c1;
+ class2 c2;
+ int f;
+  int b; 
+  int result;
+   int result1;
+  int a1[5][10.5][10];
+  c1.i1=10;
+  put(c1.i1);
+
+ 
+
+ get(b.x);
+ get(a1[1][1][1]);
+ result=a1[1][1][1]+b*a1[1][1][1];
+ //arrayUtility[utility.var1[1][2][3][4][5][6][idx+maxValue]][1][1][1].var2 = 2.5; 
+ //value = 1.05 + ((2.04 * 2.47) - 3.0) + 7.0006 > 1 and not - 1; 
+ result=result>10;
+  result1=c1.f1(1);
+  
+ put(result1);
+};
