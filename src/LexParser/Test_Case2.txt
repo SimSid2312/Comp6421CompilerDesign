@@ -1,0 +1,19 @@
+class class1
+{
+  int i1;
+  int f1();
+};
+int class1::f1()
+{
+   int a;
+   a=10/10+10*10;
+  return(a); 
+};
+program{
+
+ class1 c1;
+ int a1;
+ a1=c1.f1();
+ put(a1); 
+};
+
